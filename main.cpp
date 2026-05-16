@@ -5,14 +5,15 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello!" << endl;
-    cout << "World..." << endl;
 
+    cout << "How many rows of stars do you want? ";
+    int rows;
+    cin >> rows;
 
     // Print a triangle of stars
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i < rows; i++)
     {
-        for (int j = 0; j < i; j++)
+        for (int j = 0; j <= i; j++)
         {
             cout << "*";
         }
@@ -20,7 +21,7 @@ int main()
     }
 
     // Inverted right triangle of stars
-    for (int i = 10; i > 0; i--)
+    for (int i = rows; i > 0; i--)
     {
         for (int j = 0; j < i; j++)
         {
@@ -30,10 +31,10 @@ int main()
     }
 
     // Flipped right triangle of stars
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < rows; i++)
     {
         // Spaces
-        for (int j = 4; j > i; j--)
+        for (int j = rows - 1; j > i; j--)
         {
             cout << " ";
         }
