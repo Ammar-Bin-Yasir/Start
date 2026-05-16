@@ -45,5 +45,21 @@ int main()
         }
         cout << endl;
     }
+
+    // Inverted Flipped triangle of stars
+    for (int i = rows; i > 0; i--)
+    {
+        // Spaces
+        for (int j = rows - 1; j >= i; j--)
+        {
+            cout << " ";
+        }
+
+        for (int j = 0; j < i; j++)
+        {
+            cout << "*";
+        }
+        cout << endl;
+    }
     return 0;
 }
