@@ -28,5 +28,21 @@ int main()
         }
         cout << endl;
     }
+
+    // Flipped right triangle of stars
+    for (int i = 0; i < 5; i++)
+    {
+        // Spaces
+        for (int j = 4; j > i; j--)
+        {
+            cout << " ";
+        }
+        
+        for (int j = 0; j <= i; j++)
+        {
+            cout << "*";
+        }
+        cout << endl;
+    }
     return 0;
 }
