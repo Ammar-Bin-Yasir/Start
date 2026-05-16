@@ -1,14 +1,7 @@
-# Start
-## People will never forget how you made them feel - Maya Angelou's 
-huh
+# Juzba (A collaboration Project?)
+<br>
 
+## This is a Practice repo for the juzba (Jazba actually) project.
 
-## Hello flameo, Hotman!
-### how's ruling the fire nation?
-
-
-
-
-
-
+<br>
 
