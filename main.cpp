@@ -61,5 +61,22 @@ int main()
         }
         cout << endl;
     }
+
+
+    // Pyramid of stars
+    for (int i = 0; i < rows; i++)
+    {
+        // Spaces
+        for (int j = rows - 1; j > i; j--)
+        {
+            cout << " ";
+        }
+        // Stars
+        for (int j = 0; j < (2 * i + 1); j++)
+        {
+            cout << "*";
+        }
+        cout << endl;
+    }       
     return 0;
 }
